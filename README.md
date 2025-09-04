@@ -17,14 +17,17 @@ Features:
 
 
 Installation:
-
-1.Clone the repository:
+<ol>
+	<li>
+Clone the repository:
 
     git clone https://github.com/tomasbobbett/Abstract-Data-Types-implementation-with-Go.git
-    
-2.Move the repo clone to your workspace
-
-3.Make sure to include the repo clone route in your go.work file lke this:
+</li>
+<li>
+Move the repo clone to your workspace
+</li>
+<li>
+Make sure to include the repo clone route in your go.work file lke this:
 
     go 1.22 <-Your specific Go version
     
@@ -32,10 +35,13 @@ Installation:
 	    ./Abstract-Data-Types-implementation-with-Go
 	    ./YOUR_PROJECT
     )
-    
-4.Run your Go program making the include in your desired project:
+</li>
+<li>
+Run your Go program making the import in your desired project:
 
     import ("tdas/stack")
+</li>
+</ol>
 
 Usage:
 
