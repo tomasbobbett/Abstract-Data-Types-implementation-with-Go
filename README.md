@@ -1,9 +1,9 @@
 # Abstract-Data-Types-implementation-with-Go
 
-	"Please note that all implementation names and the code itself are written in Spanish. We apologize for any confusion
- 	this may cause.
- 	The reason is that the project was primarily developed in a Spanish-speaking environment to facilitate 
-   	collaboration and understanding among the original developers.
+	"Please note that all implementation names and the code itself are written in Spanish.
+ 	We apologize for any confusionthis may cause.
+ 	The reason is that the project was primarily developed in a Spanish-speaking environment
+  	to facilitate collaboration and understanding among the original developers.
 
 This repository contains implementations of several Abstract Data Types (ADTs) in Go, including:
 <ul>
