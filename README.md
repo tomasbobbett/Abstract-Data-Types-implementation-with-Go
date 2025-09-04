@@ -18,28 +18,37 @@ Features:
 
 Installation:
 
-Clone the repository:
+1.Clone the repository:
 
     git clone https://github.com/tomasbobbett/Abstract-Data-Types-implementation-with-Go.git
     
-Navigate to the project folder:
+2.Move the repo clone to your workspace
 
-    cd Abstract-Data-Types-implementation-with-Go
-Run your Go program:
+3.Make sure to include the repo clone route in your go.work file lke this:
 
-    go run main.go
+    go 1.22 <-Your specific Go version
+    
+    use (
+	    ./Abstract-Data-Types-implementation-with-Go
+	    ./YOUR_PROJECT
+    )
+    
+4.Run your Go program making the include in your desired project:
+
+    import ("tdas/stack")
 
 Usage:
 
 Each folder contains the implementation of a specific data type. You can import and use them in your projects as needed:
 
-    import "github.com/tomasbobbett/Abstract-Data-Types-implementation-with-Go/stack"
+    import ("tdas/stack")
     
     func main() {
         s := stack.NewStack()
         s.Push(10)
         fmt.Println(s.Pop()) // 10
     }
+------
 License:
 
 This project is open source and available under the MIT License.
